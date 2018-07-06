@@ -1,0 +1,35 @@
+# Compiled class file
+*.class
+*.classpath
+*.settings
+*.project
+*.mvn
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+*.springBeans
+mvnw
+*.cmd
+DB_connection.properties
+DB_test.properties
+/src/main/resources/DB_connection.properties
+/src/main/resources/DB_test.properties
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/build/
+/target/
