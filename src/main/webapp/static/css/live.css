@@ -1,0 +1,167 @@
+/*
+* Styles for livescores
+*/
+
+
+DIV#notSupported {
+line-height: 150%;
+text-align: justify;
+background: whitesmoke;
+color: darkred;
+padding: 5px 10px;
+margin: -10px 0px 10px 0px;
+font-size: 14px;
+display: none;
+}
+
+P#note {
+line-height: 150%;
+text-align: justify;
+color: darkgreen;
+text-indent: 30px;
+margin: 50px 0px 5px 0px;
+font-size: 14px;
+}
+
+H2.date {
+margin: 15px 0px 15px 0px;
+text-align: center;
+}
+
+
+/*
+* Styles about table with games
+*/
+TABLE.live {
+width: 100%;
+margin: 0px 0px 30px 0px;
+border-collapse: collapse;
+}
+
+TABLE.live TR.tr0 {
+background: #E6E8E7;
+}
+
+TABLE.live TR.tr1 {
+background: #EDF3E7;
+}
+
+TABLE.live TD, TABLE.live TH {
+padding: 5px 4px;
+}
+
+TABLE.live TH {
+text-align: center;
+font-weight: bold;
+background: #008A00;
+color: white;
+}
+
+TABLE.live TH.left {
+text-align: left;
+}
+
+TABLE.live TD {
+color: navy;
+}
+
+TABLE.live TD.time {
+width: 38px;
+white-space: nowrap;
+text-align: right;
+}
+
+TABLE.live TD.status {
+width: 50px;
+white-space: nowrap;
+text-align: center;
+}
+
+TABLE.live TD.result {
+white-space: nowrap;
+text-align: center;
+font-weight: bold;
+}
+
+TABLE.live TD.prev, TABLE.live TD.half {
+width: 48px;
+text-align: right;
+color: lightsteelblue;
+}
+
+TABLE.live TD.center {
+text-align: center;
+}
+
+TABLE.live TD.home, TABLE.live TD.away {
+width: 252px;
+}
+
+TABLE.live TD.home {
+text-align: right;
+}
+
+TABLE.live TD.away {
+text-align: left;
+}
+
+TABLE.live TR.play TD.status, TABLE.live TR.play TD.result {
+color: #CD0000;
+}
+
+TABLE.live TR.play TD.time {
+color: lightsteelblue;
+}
+
+TABLE.live TR, TABLE.live TD {
+transition: background-color 1s linear;
+}
+
+TABLE.live TR.event, TABLE.live TD.event {
+background: #FFCD99;
+}
+
+DIV.goal {
+width: 100%;
+position: relative;
+}
+
+SPAN.goalHome, SPAN.goalAway {
+font-weight: bold;
+color:	#CD0000;
+position: absolute;
+top: 0px;
+z-index: 100;
+}
+
+SPAN.goalHome {
+left: 30px;
+}
+
+SPAN.goalAway {
+right: 30px;
+}
+
+
+blink, .blink {
+-webkit-animation: blink 1.2s step-end infinite;
+-moz-animation: blink 1.2s step-end infinite;
+-o-animation: blink 1.2s step-end infinite;
+animation: blink 1.2s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+60% { opacity: 0 }
+}
+
+@-moz-keyframes blink {
+60% { opacity: 0 }
+}
+
+@-o-keyframes blink {
+60% { opacity: 0 }
+}
+
+@keyframes blink {
+60% { opacity: 0 }
+}

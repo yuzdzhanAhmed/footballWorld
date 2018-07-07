@@ -23,6 +23,11 @@ public class HomeController {
 		
 				return "index";
 	}
+	@RequestMapping(value = { "/live" }, method = RequestMethod.GET)
+	public String live(Model model, HttpServletRequest req)  {
+		
+				return "livescore";
+	}
 
 	
 

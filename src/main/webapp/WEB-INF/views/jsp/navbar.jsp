@@ -16,6 +16,7 @@
 	<link rel="icon" type="image/png" href="footballWorld/images/icons/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="footballWorld/css/util.css">
 	<link rel="stylesheet" type="text/css" href="footballWorld/css/main.css">
+	<link href="footballWorld/css/live.css" rel="stylesheet" type="text/css">
 	<!--===============================================================================================-->
 
 </head>
@@ -25,18 +26,18 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="one_half first">
-      <h1 class="logoname"><a href="index.html"><span>FOOTBALL</span>world</a></h1>
+      <h1 class="logoname"><a href="./index"><span>FOOTBALL</span>world</a></h1>
     </div>
     <!-- ################################################################################################ -->
   </header>
   
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" style="background-color: SteelBlue    ">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Home</a>
     </div>
     <ul class="nav navbar-nav">
-       <li><a href="#">livescore</a></li>
+       <li><a href="./live">LIVESCORE</a></li>
       <li><a href="#">tips</a></li>
       <li><a href="#">statistics</a></li>
       <li><a href="#">fixtures</a></li>
