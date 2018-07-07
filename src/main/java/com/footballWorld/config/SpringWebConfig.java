@@ -24,7 +24,12 @@ import org.springframework.web.servlet.view.JstlView;
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-    	//registry.addResourceHandler("/uploads/images/**").addResourceLocations("/static/uploads/images/");
+    	registry.addResourceHandler("/footballWorld/css/**").addResourceLocations("/static/css/");
+    	registry.addResourceHandler("/footballWorld/vendor/**").addResourceLocations("/static/vendor/");
+    	registry.addResourceHandler("/footballWorld/fonts/**").addResourceLocations("/static/fonts/");
+    	registry.addResourceHandler("/footballWorld/js/**").addResourceLocations("/static/js/");
+    	registry.addResourceHandler("/footballWorld/images/**").addResourceLocations("/static/images/");
+    	registry.addResourceHandler("/footballWorld/scripts/**").addResourceLocations("/static/scripts/");
     	
         }
     @Bean(name = "multipartResolver")
